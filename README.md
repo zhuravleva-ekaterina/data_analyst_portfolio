@@ -1,7 +1,7 @@
 # data_analyst_portfolio
 Проекты по профессии "Аналитик данных", выполненные на курсе Яндекс.Практикум
 
-Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekaterina-v@yandex.ru
+Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekaterina-v@yandex.ru | [Телеграм](https://t.me/ekaterina96zhuravleva)
 
 Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Аналитик данных"
 
