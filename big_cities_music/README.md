@@ -36,3 +36,4 @@
 Третья гипотеза не подтвердилась. Если различия в предпочтениях и существуют, на основной массе пользователей они незаметны.
 
 ## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/big_cities_music/zhuravleva_big_cities_music.ipynb)
+ 
