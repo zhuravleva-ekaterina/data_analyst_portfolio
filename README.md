@@ -1,5 +1,5 @@
 # Портфолио
-Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekaterina-v@yandex.ru | [Телеграм](https://t.me/ekaterina96zhuravleva)
+Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekaterina-v@yandex.ru |[Телеграм](https://t.me/ekaterina96zhuravleva)</p> 
 ------
 
 Ниже приведена таблица с проектами, их кратким описанием, полученными навыками и используемыми инструментами.
