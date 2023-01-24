@@ -35,5 +35,5 @@
 3. Во вкусах пользователей Москвы и Петербурга больше общего чем различий. Предпочтения жанров в Петербурге напоминают московские.
 Третья гипотеза не подтвердилась. Если различия в предпочтениях и существуют, на основной массе пользователей они незаметны.
 
-## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/big_cities_music/zhuravleva_big_cities_music.ipynb)
+## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio_solution/blob/main/big_cities_music/zhuravleva_big_cities_music.ipynb)
  
