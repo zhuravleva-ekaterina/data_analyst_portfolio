@@ -12,5 +12,5 @@ Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekater
 
 | Название проекта | Описание | Навыки и инструменты |
 | :--------------- | :------- | :------------------- |
-| [Музыка больших городов](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/big_cities_music/zhuravleva_big_cities_music.ipynb)| Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница) | Предобработка данных, pandas |
+| [Музыка больших городов](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/tree/main/big_cities_music)| Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница) | Предобработка данных, pandas |
 | [Исследование надёжности заёмщиков](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/tree/main/credit%20score) | Анализ факторов, влияющих на факт погашения кредита в срок. | Предобработка данных, категоризация, сводные таблицы, Pandas |
