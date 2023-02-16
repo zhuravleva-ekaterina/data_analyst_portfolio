@@ -98,5 +98,5 @@
 
 2.Средняя выручка с пользователей из Москвы не отличается от выручки c пользователей других регионов.
 
-## [Посмотреть ход решения]()
+## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/tariff_plan/04_tariff_plan.ipynb)
 
