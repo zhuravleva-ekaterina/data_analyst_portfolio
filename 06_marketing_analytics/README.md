@@ -85,5 +85,5 @@
 4. Увеличить показ рекламы пользователям РС
 5. Увеличить бюджет на рекламу по каналу RocketSuperAds, у него высокая доля платящих клиентов, а также окупаемость рекламы быстро растет
 
-## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/tariff_plan/04_tariff_plan.ipynb)
+## [Посмотреть ход решения](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/06_marketing_analytics/06_marketing_analytics.ipynb)
 
