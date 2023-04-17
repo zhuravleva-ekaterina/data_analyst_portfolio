@@ -1,4 +1,4 @@
-# Портфолио
+# Портфолио "Аналитик данных"
 Zhuravleva Ekaterina | Журавлёва Екатерина | zhuravleva-ekaterina-v@yandex.ru |[Телеграм](https://t.me/ekaterina96zhuravleva)</p> 
 ------
 
