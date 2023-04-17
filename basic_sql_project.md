@@ -76,3 +76,65 @@ FROM company
 GROUP BY country_code
 ORDER BY 2 DESC
 ``` 
+
+7. Составьте таблицу, в которую войдёт дата проведения раунда, а также минимальное и максимальное значения суммы инвестиций, привлечённых в эту дату.
+Оставьте в итоговой таблице только те записи, в которых минимальное значение суммы инвестиций не равно нулю и не равно максимальному значению.
+
+```sql
+SELECT funded_at,
+       MIN(raised_amount) AS min_,
+       MAX(raised_amount) AS max_
+FROM funding_round
+GROUP BY funded_at
+HAVING MIN(raised_amount) != 0
+AND MIN(raised_amount) != MAX(raised_amount)
+```
+
+
+8. Создайте поле с категориями:
+ - Для фондов, которые инвестируют в 100 и более компаний, назначьте категорию high_activity.
+ - Для фондов, которые инвестируют в 20 и более компаний до 100, назначьте категорию middle_activity.
+ - Если количество инвестируемых компаний фонда не достигает 20, назначьте категорию low_activity.
+Отобразите все поля таблицы fund и новое поле с категориями.
+
+```sql
+SELECT *,
+       CASE
+           WHEN invested_companies < 20 THEN 'low_activity'
+           WHEN invested_companies BETWEEN 20 AND 100 THEN 'middle_activity'
+           WHEN invested_companies > 100 THEN 'high_activity'
+       END
+FROM fund
+```
+
+9. Для каждой из категорий, назначенных в предыдущем задании, посчитайте округлённое до ближайшего целого числа среднее количество инвестиционных раундов, в которых фонд принимал участие. Выведите на экран категории и среднее число инвестиционных раундов. Отсортируйте таблицу по возрастанию среднего.
+
+```sql
+SELECT ROUND(AVG(investment_rounds)),
+       CASE
+           WHEN invested_companies>=100 THEN 'high_activity'
+           WHEN invested_companies>=20 THEN 'middle_activity'
+           ELSE 'low_activity'
+       END AS activity
+FROM fund
+GROUP BY activity
+ORDER BY AVG(investment_rounds);
+```
+
+10. Проанализируйте, в каких странах находятся фонды, которые чаще всего инвестируют в стартапы. 
+Для каждой страны посчитайте минимальное, максимальное и среднее число компаний, в которые инвестировали фонды этой страны, основанные с 2010 по 2012 год включительно. Исключите страны с фондами, у которых минимальное число компаний, получивших инвестиции, равно нулю. 
+Выгрузите десять самых активных стран-инвесторов: отсортируйте таблицу по среднему количеству компаний от большего к меньшему. Затем добавьте сортировку по коду страны в лексикографическом порядке.
+
+```sql
+SELECT country_code,
+       MIN(invested_companies) AS min_,
+       MAX(invested_companies) AS max_,
+       AVG(invested_companies) AS avg_
+FROM fund
+WHERE founded_at BETWEEN '2010-01-01' AND '2012-12-31'
+GROUP BY country_code
+HAVING MIN(invested_companies) != 0
+ORDER BY avg_ DESC,
+         country_code
+LIMIT 10
+```
