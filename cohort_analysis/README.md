@@ -1,6 +1,10 @@
-## Продвинутый SQL. Когортный анализ, Retention Rate, LTV, Churn Rate
+## Продвинутый SQL. Расчёт бизнес-показателей
 
 Расчет параметров выполнен в интерактивном тренажере на платформе Яндекс.Практикума.
+
+## [Решение заданий](https://github.com/zhuravleva-ekaterina/data_analyst_portfolio/blob/main/cohort_analysis/cohort_analysis_solution.sql)
+
+## Описание данных
 
 ER-диаграмма базы данных:
 <img width="934" alt="image" src="https://user-images.githubusercontent.com/112425295/232772775-d413a67f-19a4-4465-bf1c-9d4ea810df0d.png">
